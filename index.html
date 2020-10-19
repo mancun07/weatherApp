@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container mx-auto my-5">
+        <h1 class="text-center my-4 text-muted">Ninja Weather</h1>
+        <form class="change-location my-4 text-center text-muted">
+            <label for="city">Enter the city name</label>
+            <input type="text" name="city" class="p-4 form-control">
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://via.placeholder.com/300" alt="" class="time card-img-top">
+            <div class="icon">
+                <!-- icon will be here -->
+            </div>
+            <div class="details text-muted text-center text-uppercase">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather condition</div>
+                <div class="display-4 my-4">
+                    <span>Temp</span>
+                    <span>&deg; C</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
